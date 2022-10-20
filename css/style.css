@@ -118,7 +118,9 @@ header .social-links li a {
 header .wrapper {
     background-color: black;
 }
-
+.hero-sec .image-holder{
+    display: none;
+}
 .navbar-nav .nav-item .nav-link.active {
     color: white;
     border-bottom: 2px solid white;
@@ -130,6 +132,10 @@ header .wrapper {
     color: white;
     margin: 0px 22px;
     padding-bottom: 25px;
+}
+.hero-sec .text-box{
+    max-width: 376px;
+    width: 100%;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -230,7 +236,9 @@ header .wrapper {
     left: 190px;
 }
 
-
+.mailing-box .image-holder{
+    display: none;
+}
 .brands h6 {
     font-size: 14px;
     line-height: 116.2%;
@@ -388,7 +396,12 @@ footer ul li a {
     top: 20px;
     right: 0;
 }
-
+.add-box .card-box h6{
+    font-weight: 300;
+font-size: 14px;
+line-height: 180%;
+color: #C4006E;
+}
 .form-input {
     border: 1px solid #E0E8F9;
     box-shadow: 0px 6px 10px rgba(209, 214, 225, 0.3);

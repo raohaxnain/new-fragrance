@@ -1,5 +1,124 @@
-@media (min-width:1200px){
-    .container{
+@media (min-width:1200px) {
+    .container {
         max-width: 1286px;
+    }
+}
+
+@media (max-width:1300px) {
+    .brands h6 {
+        font-size: 12px;
+    }
+
+    footer {
+        margin-top: 77px;
+    }
+
+    .hero-sec {
+        padding: 47px 0px 27px;
+        background-position: right;
+    }
+}
+
+@media (max-width:1199px) {
+    .category-sec .box .text-box {
+        padding: 7px 0px 0px;
+    }
+    .text-box p {
+        font-size: 15px;
+        line-height: 123.2%;
+    }
+    .swiper-button-prev {
+        left: 117px;
+    }
+    .counter-box {
+        padding: 30px 9px 36px 2px;
+    }
+    .badge {
+        line-height: 170%;
+    }
+
+    .text-box h2 {
+        font-size: 18px;
+        line-height: 124%;
+    }
+
+    .mb-3 {
+        margin-bottom: 0.7rem !important;
+    }
+
+    .category-sec .text-box p {
+        margin-bottom: 8px;
+    }
+}
+@media (max-width:991px) {
+    .hero-sec {
+        background-image: none;
+    }
+    .hero-sec .image-holder{
+        display:block;
+    }
+    .mailing-box .image-holder{
+        display: block;
+    }
+    .hero-sec .text-box {
+        max-width:100%;
+        width: 100%;
+    }
+    .mailing-box {
+        padding: 0;
+    }
+    .mailing-box .text-box{
+         padding: 27px 17px 0px 11px;
+    }
+    .category-sec .box .text-box {
+        padding: 19px 0px 0px;
+    }
+    footer {
+        margin-top: 53px;
+    }
+    
+}
+@media (max-width:767px) {
+    .mailing-box{
+        background: linear-gradient(180deg, #FEF6F2 63.64%, rgba(250, 224, 217, 0) 100%);
+    }
+    .brands h6 {
+        font-size: 14px;
+        line-height: 116.2%;
+    }
+    footer ul {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+    footer ul li{
+        padding: 0px 0px 23px;
+    }
+    .row-divider{
+        border-bottom: none;
+        padding: 0px;
+    }
+    .row-divider h6{
+        border-bottom: 1px solid #FFB4C8;
+        padding: 10px 0px;
+    } 
+    .space{
+        padding-right: 0px;
+    }
+    .space-2{
+        padding-left: 0px;
+    }
+    .text-box h2 {
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .text-box p {
+        font-size: 14px;
+        line-height: 168.2%;
+    }
+    .category-sec .box .text-box {
+        padding: 22px;
+    }
+    .swiper-button-prev {
+        left: 78px;
     }
 }
